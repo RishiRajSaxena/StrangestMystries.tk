@@ -1,0 +1,351 @@
+/* Loader for the Screen */
+
+.loader 
+{
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader > img 
+{
+    width: 100px;
+}
+
+.loader.hidden 
+{
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut 
+{
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.thumb 
+{
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+
+
+
+.
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background-image: url(my.jpg);
+	background-color: purple;
+	background-size: cover;
+	background-position: auto;
+	color: white; 
+	
+	font-family: sans-serif;
+}
+#h1
+{   margin-top: 10px;
+    margin-left: 10px;
+	margin-right: 800px;
+	background-color: #36140b; //#906983;
+	color: #d2f1da;
+	
+}
+.heading
+{
+	text-align: center;
+	background: #e5e4d7;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+ul 
+{
+	background: black;
+	font-family: sans-serif;
+}
+li:hover
+{
+	background: lightblue;
+	color: black;		
+}
+ul li a
+{
+	color: White;
+}
+#footer
+{
+	text-align: center;
+	height: 20px;
+	
+}
+
+#footer center
+{
+	background: black;
+	text-decoration: none;
+	color: white;
+	
+}
+#footer ul li 
+{
+	display: inline;
+	padding: 10px;
+}
+#footer ul li a:hover
+{
+	color: black;
+}
+#footer ul li a
+{
+text-decoration: none;	
+}
+
+/*======================================================================================================*/
+                             /*  Area 51   */
+							 
+
+#area_51
+{
+	background: #dfb944;            /*#d99c04;*/
+	color: black;
+	font-family: Palatino Linotype Book Antiqua Palatino, serif;
+	
+	padding-right: 190px;
+	padding-left: 190px;
+	margin-left: 30px;
+}
+#area_51 h1
+{
+	font-size:  90px;
+	background: #d99c04;      /*#dfb944;*/
+	text-align: center;
+	margin-top: 15px;
+}
+#body_area51
+{
+	font-size: 25px;
+}
+.image_1
+{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 300px;
+	padding-left: 5px;	
+}
+.column 
+{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after 
+{
+  content: "";
+  clear: both;
+  display: table;
+  background: #b0c181;
+}
+
+/*===============================================================================*/
+                                    /*    BigFoot   */
+
+#bigfoot_div
+{
+	background: #bcc2b6;
+	color: black;
+	font-family: Palatino Linotype Book Antiqua Palatino, serif;
+	font-size: 21px;
+	padding-left: 190px;
+	padding-right: 190px;
+}	
+#bigfoot_body 
+{
+	font-size: 17px;
+	background: #bcc2b6;
+}	
+.bigfoot_h1 h1
+{
+	font-size: 90px;
+	margin-top: 15px;
+}
+.bigfoot_h1
+{
+	background-color: #b8baba;
+	text-align: center;
+	margin-top: 15px;	
+}
+#bigfoot1
+{
+	background: #b1b4af;
+	color: black;
+	margin-left: 580px;
+	margin-right: 580px;
+	margin-top: 30px;
+	padding-top: 10px;
+}
+
+
+/*============================================================================================*/
+                                           /* atlantis */
+
+
+#atlantis_body
+{
+	font-size: 17px;
+	background: #41d7f8;
+	
+  
+  
+  /*  background: #41d7f8;
+	color: black;
+	font-family: Palatino Linotype Book Antiqua Palatino, serif;
+    /*font-size: 25px;  /
+	padding-right: 190px;
+	padding-left: 190px;  */
+}
+#atlantis_div
+{
+	background: #41d7f8;
+	color: black;
+	font-family: Palatino Linotype Book Antiqua Palatino, serif;
+	font-size: 21px;
+	padding-left: 190px;
+	padding-right: 190px;
+}	
+#atlantis_h1 h1
+{
+	font-size: 90px;
+	margin-top: 15px;
+}
+#atlantis_h1 
+{
+	background: #3cb7f6; 	/*52ccff*/
+	text-align: center;
+    font-size: 25px;
+}
+figcaption
+{
+	color: black;
+}
+.img_atlantis
+{
+	background: #3cb7f6;
+	padding-top: 25px;
+	margin-left: 550px;
+	margin-right: 550px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-bottom: 150px;
+}
+
+
+/*=====================================================================================*/
+                                      /* Men in Black */
+
+
+#black_body
+{
+	font-size: 17px;
+	background: #a3b7f6;
+}
+#black_div
+{
+	color: black;
+	font-family: Palatino Linotype Book Antiqua Palatino, serif;
+	font-size: 21px;
+	padding-left: 190px;
+	padding-right: 190px;
+}
+#black_h1 h1
+{
+	font-size: 90px;
+	margin-top: 15px;
+}
+#black_h1
+{
+	background: #a3a0f6;
+	text-align: center;
+	font-size: 25px;
+}	
+#black_img 
+{
+	background: #a3a0f6;
+	margin-top: ;
+	margin-left: 500px;
+	margin-right: 500px;
+}
+#black_img img
+{
+	margin-top: 20px;
+}
+
+/*===========================================================================================*/
+                                        /* AmityVille */	
+										
+ 
+#amity_body
+{
+	font-size: 17px;
+	background: #7c6331;
+}
+#amity_div								
+{
+	color: black;
+	font-family: Palatino Linotype Book Antiqua Palatino, serif;
+	font-size: 21px;
+	padding-left: 190px;
+	padding-right: 190px;	
+}
+#amity_h1 h1
+{
+	font-size: 90px;
+	margin-top: 15px;
+}
+#amity_h1
+{
+    background: #73622b;         /*79662e*/;
+    text-align: center;
+   	font-size: 25px
+}
+#amity_img
+{
+	background: #73622b;
+	margin-left: 330px;
+	margin-right: 330px;
+}
+.fff
+{
+	color: Black;
+	display: table;
+	padding: 15px;
+	background-color: #bcc2b6;
+}
+.con
+{
+	margin-top: 300px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.About
+{
+    margin-right: 50px;
+}
